@@ -47,7 +47,7 @@ router.post('/', (req, res) => {
   Tag.create({ 
     tag_name:req.body.tag_name
   }) 
-  then(tag => res.json(tag)) 
+  .then(tag => res.json(tag)) 
   .catch(err=>{ 
     console.log(err); 
     res.status(500).json(err)
@@ -77,7 +77,7 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => { 
-  Tag.destroy(req.body,{ 
+  Tag.destroy({ 
     where:{ 
       id:req.params.id
     }
