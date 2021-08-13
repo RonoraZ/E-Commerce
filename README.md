@@ -21,8 +21,9 @@
 In this project we created a backend E-commerce application that connects the routes and api callls to 
 there product , category or tag .  
 
-<img src="images/Screenshot(38).png" width="100"> 
-<img src="images/Screenshot(39).png" width="100">
+![](images/Screenshot(38).png) 
+![](images/Screenshot(39).png)
+
 
    **VideoLink** https://drive.google.com/file/d/1IxXt3WPygR2WegqoaInvOZk-DyyBj3-Z/view
 
